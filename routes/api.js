@@ -34,12 +34,12 @@ router.post('/save', (request, response) => {
     });
 });
 
-router.get('/name', (request, response) => {
-    const data = {
-        username : 'k Bond',
-        age : 49
-    };
-    response.json(data); // Send the response to the client as JSON 
-});
+// router.get('/name', (request, response) => {
+//     const data = {
+//         username : 'k Bond',
+//         age : 49
+//     };
+//     response.json(data); // Send the response to the client as JSON 
+// });
 
 module.exports = router;
